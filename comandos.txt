@@ -1,0 +1,100 @@
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo
+$ git init
+Initialized empty Git repository in C:/Users/User/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo/.git/
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (master)
+$ git branch -m main
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ git remote add origin https://github.com/amrg-08/20230605-AnaMariaRestrepo.git
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ touch comandos.txt main.js index.html
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ git add .
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ git commit -m "commit 01 de AnaMariaRestrepo"
+[main (root-commit) ffcb92a] commit 01 de AnaMariaRestrepo
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 249 bytes | 249.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amrg-08/20230605-AnaMariaRestrepo.git
+ * [new branch]      main -> main
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ git branch "feature"
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ Git Checkout "feature"
+fatal: cannot handle Checkout as a builtin
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ Git checkout "feature"
+Switched to branch 'feature'
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (feature)
+$ mkdir Harware Sorfware SeguridadInformatica
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (feature)
+$ touch Harware/resumen.txt Sorfware/resumen.txt SeguridadInformatica/resumen.txt
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (feature)
+$ mv Sorfware Sofware
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (feature)
+$ mv Sofware Software
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (feature)
+$ git add .
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (feature)
+$ git commit -m "commit 02 de AnaMariaRestrepo"
+[feature f7c9005] commit 02 de AnaMariaRestrepo
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Harware/resumen.txt
+ create mode 100644 SeguridadInformatica/resumen.txt
+ create mode 100644 Software/resumen.txt
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 383 bytes | 383.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/amrg-08/20230605-AnaMariaRestrepo/pull/new/feature
+remote:
+To https://github.com/amrg-08/20230605-AnaMariaRestrepo.git
+ * [new branch]      feature -> feature
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (feature)
+$ Git checkout "main"
+Switched to branch 'main'
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ mv main.js resumenHardware.txt
+
+User@DESKTOP-8MD6LPR MINGW64 ~/OneDrive - Universidad Icesi (@icesi.edu.co)/DIGITAL HOUSE/Introduccion a la informática/Primerparcial/20230605-AnaMariaRestrepo (main)
+$ mv index.html resumenSoftware.txt
